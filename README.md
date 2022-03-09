@@ -29,13 +29,16 @@ For the bar chart comparison between the mean of 'Item_Outlet_Sales' column and 
 In this section, the following tasks were addressed:
 
 a) The target (X) and features (y) were identified. The "Item_Outlet_Sales" column was assigned as the target and the rest of the relevant variables as the features matrix.
+
 b) A train test split was performed
+
 c) A pre processing pipeline was created to prepare the dataset for Machine Learning
 
 After the above tasks were performed, there were no missing values in our data, all numeric data was successfully scaled, ordinal data was ordinal encoded, and nominal data was one-hot encoded.
 
 **Part 6 - Regression Models**
 In this section, the following tasks were carried out:
+
 a. A linear regression model was built to predict sales. The performance of the model was evaluated based on R^2. The performance of the model was evaluated based on RMSE.
 
 b. A regression tree model was built to predict sales. The performance of the model was evaluated based on R^2. The performance of the model was evaluated based on RMSE.
