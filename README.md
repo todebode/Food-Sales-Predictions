@@ -1,4 +1,4 @@
-# Food-sales-predictions
+# Food Sales Predictions
 This project involves predicting sales for food items sold at various stores. There are 6 parts in this project. Each part was carried out using python programming language.
 
 **Part 1:  Loading and verifying data**
