@@ -6,6 +6,11 @@
 
 This project involves predicting sales for food items sold at various stores. There are 6 parts in this project. Each part was carried out using python programming language.
 
+**Data Source:**
+
+The data used in this project was retrieved from the following website: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+
+
 **Part 1:  Loading and verifying data**
 
 In this part, the needed packages were imported and the sales prediction data was loaded and verified
