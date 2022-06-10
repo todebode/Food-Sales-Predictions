@@ -37,11 +37,11 @@ In this section, a histogram, boxplot and heat map were used for exploratory dat
 
 <ins>Findings</ins> 
 
-The histogram in Figure 1 showed that the highest number of products fall in the maximum retail price range of roughly 110-125. Also, the histogram showed that no product had a maximum retail price less than approximately 30. Also, no product had a maximum retail price greater than about 268.
+- The histogram in Figure 1 showed that the highest number of products fall in the maximum retail price range of roughly 110-125. Also, the histogram showed that no product had a maximum retail price less than approximately 30. Also, no product had a maximum retail price greater than about 268.
 
-From the boxplot in Figure 2, it was apparent that the median for the "Item_Weight" column was approximately around 12.5. The 25th percentile was approximately around 9.3, the 75th percentile was approximately around 16, the minimum was approximately around 4.5 and the maximum was approximately around 21.4. These numbers match up closely with what we see in the summary of statistics table.
+- From the boxplot in Figure 2, it was apparent that the median for the "Item_Weight" column was approximately around 12.5. The 25th percentile was approximately around 9.3, the 75th percentile was approximately around 16, the minimum was approximately around 4.5 and the maximum was approximately around 21.4. These numbers match up closely with what we see in the summary of statistics table.
 
-It is obvious from the heat map in Figure 3 that when you compare each column against itself, you get a correlation value of 1. This is expected. Also, when 'Item_Outlet_Sales' is compared against 'Item_MRP', there is moderate positive correlation with a correlation value of 0.57. This means that the higher the maximum retail price (list price) of the product, the higher the sales of the product in the paricular store, and the lower the maximum retail price (list price) of the product, the lower the sales of the product in the paricular store. The correlation values in the other boxes in the heat map were either less than +0.1(indicating almost no correlation or very weak positive correlation) or they were very weak negative correlation values. Negative correlation indicates that when one column feature goes up, the other column feature being compared with it goes down and vice versa.
+- It is obvious from the heat map in Figure 3 that when you compare each column against itself, you get a correlation value of 1. This is expected. Also, when 'Item_Outlet_Sales' is compared against 'Item_MRP', there is moderate positive correlation with a correlation value of 0.57. This means that the higher the maximum retail price (list price) of the product, the higher the sales of the product in the paricular store, and the lower the maximum retail price (list price) of the product, the lower the sales of the product in the paricular store. The correlation values in the other boxes in the heat map were either less than +0.1(indicating almost no correlation or very weak positive correlation) or they were very weak negative correlation values. Negative correlation indicates that when one column feature goes up, the other column feature being compared with it goes down and vice versa.
 
 **Part 4 - Explanatory Data Visualization**
 
@@ -61,11 +61,11 @@ In this section, outliers in the data set were identified and addressed using bo
 
 <ins>Findings</ins> 
 
-From the boxplots (example in Figure 4 above) that were created, it was obvious that the following columns had outliers in them: 'Item_Visibility' and 'Item_Outlet_Sales.' The outliers in the 'sales_predictions' data were kept since there was no reason to believe the outliers were an error in the dataset.
+- From the boxplots (example in Figure 4 above) that were created, it was obvious that the following columns had outliers in them: 'Item_Visibility' and 'Item_Outlet_Sales.' The outliers in the 'sales_predictions' data were kept since there was no reason to believe the outliers were an error in the dataset.
 
-From the scatter plot in Figure 5, no correlation was seen between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of product in the particular store.
+- From the scatter plot in Figure 5, no correlation was seen between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of product in the particular store.
 
-From the bar chart in Figure 6, it was obvious that the average sales of products in various stores was higher for food products with regular fat content than food products with low fat content.
+- From the bar chart in Figure 6, it was obvious that the average sales of products in various stores was higher for food products with regular fat content than food products with low fat content.
 
 **Part 5 - Preprocessing for Machine Learning**
 
