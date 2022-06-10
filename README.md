@@ -21,11 +21,19 @@ In this part, several steps were carried out to clean the data. Missing values a
  
 **Part 3: Exploratory Data Visualization**
 
-In this section, a histogram, boxplot and heat map were used for exploratory data analysis and visualization. The Histogram of the Maximum Retail Price (list price) of products, Boxplot of the 'Item_Weight' column, and Heat map of the 'sales_predictions' are shown in Figure 1, Figure 2, and Figure 3 below. 
+In this section, a histogram, boxplot and heat map were used for exploratory data analysis and visualization. The Histogram of the Maximum Retail Price (list price) of products, Boxplot of the 'Item_Weight' column, and Heat map of the 'sales_predictions' dataframe are shown in Figure 1, Figure 2, and Figure 3 below. 
 
 ![image](https://user-images.githubusercontent.com/97941938/173128049-666146ff-10fa-4ab4-a2e1-769cea97c7f5.png)
 
-**Figure 1:** The Histogram of the Maximum Retail Price (list price) of products
+**Figure 1:** Histogram of the Maximum Retail Price (list price) of products
+
+![image](https://user-images.githubusercontent.com/97941938/173128298-19fe8031-b127-42dd-8fe9-2fa0077ad20a.png)
+
+**Figure 2:** Boxplot of the 'Item_Weight' column
+
+![image](https://user-images.githubusercontent.com/97941938/173128393-76046c8a-b85d-4bbb-8729-3c3c6f7dde93.png)
+
+**Figure 3:** Heat map of the 'sales_predictions' dataframe
 
 The histogram showed that the highest number of products fall in the maximum retail price range of roughly 110-125. Also, the histogram showed that no product had a maximum retail price less than approximately 30. Also, no product had a maximum retail price greater than about 268.
 
