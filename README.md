@@ -43,13 +43,25 @@ It is obvious from the heat map in Figure 3 that when you compare each column ag
 
 **Part 4 - Explanatory Data Visualization**
 
-In this section, outliers in the data set were identified and addressed. Also, using a scatter plot, the 'Item_Visibility' and 'Item_Outlet_Sales' columns were compared to see if there is any correlation between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of the product in the particular store. Finally, using bar charts, the mean of 'Item_Outlet_Sales' column was compared with the 'Item_Fat_Content' column to see if there is any correlation between the fat content of food products and the average sales of products in various stores.
+In this section, outliers in the data set were identified and addressed using boxplots. Also, using a scatter plot, the 'Item_Visibility' and 'Item_Outlet_Sales' columns were compared to see if there is any correlation between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of the product in the particular store. Finally, using bar charts, the mean of 'Item_Outlet_Sales' column was compared with the 'Item_Fat_Content' column to see if there is any correlation between the fat content of food products and the average sales of products in various stores. The Boxplot for 'Item_Visibility' column, scatter plot that compares the 'Item_Visibility' and 'Item_Outlet_Sales' columns, and bar chart that compares the mean of 'Item_Outlet_Sales' column with the 'Item_Fat_Content' column are shown in Figure 4, Figure 5, and Figure 6 below. 
 
-To address outliers, boxplots were utilized. From the boxplots that were created, it was obvious that the following columns had outliers in them: 'Item_Visibility' and 'Item_Outlet_Sales.' The outliers in the 'sales_predictions' data were kept since there was no reason to believe the outliers were an error in the dataset.
+![image](https://user-images.githubusercontent.com/97941938/173130215-09a4805a-728f-4af2-8262-b56bdd7bf198.png)
 
-For the scatter plot comparison between 'Item_Visibility' and 'Item_Outlet_Sales' columns, no correlation was seen between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of product in the particular store.
+**Figure 4:** Boxplot for 'Item_Visibility' column
 
-For the bar chart comparison between the mean of 'Item_Outlet_Sales' column and the 'Item_Fat_Content' column , it was obvious that the average sales of products in various stores was higher for food products with regular fat content than food products with low fat content.
+![image](https://user-images.githubusercontent.com/97941938/173130318-20693378-6d20-42b7-bd14-6aeb242cbebd.png)
+
+**Figure 5:** Correlation between Product Visibility and Sales of Product
+
+![image](https://user-images.githubusercontent.com/97941938/173130478-29418c9c-a4ea-487d-998c-14dc18ef67ec.png)
+
+**Figure 6:** Average Sales of Products in various stores by Fat Content
+
+From the boxplots (example in Figure 4 above) that were created, it was obvious that the following columns had outliers in them: 'Item_Visibility' and 'Item_Outlet_Sales.' The outliers in the 'sales_predictions' data were kept since there was no reason to believe the outliers were an error in the dataset.
+
+From the scatter plot in Figure 5, no correlation was seen between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of product in the particular store.
+
+From the bar chart in Figure 6, it was obvious that the average sales of products in various stores was higher for food products with regular fat content than food products with low fat content.
 
 **Part 5 - Preprocessing for Machine Learning**
 
