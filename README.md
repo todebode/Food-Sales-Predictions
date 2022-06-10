@@ -91,18 +91,26 @@ c. The model to implement was determined. A justification was provided for the r
 
 <ins>Findings</ins> 
 
-The optimized (max_depth = 6) simple regression tree model seemed to have worked better than the linear regression model. This is because the R^2 and RMSE values indicated less overfitting in the optimized simple regression tree model. The R^2 values of the training and testing sets in the optimized simple regression tree model were closer to each other. Also, the RMSE values of the training and testing sets were closer to each other. The optimized simple regression tree model seemed to perform better on the test set. The following are the results for each model:
+- The optimized (max_depth = 6) simple regression tree model seems to have worked better than the linear regression model. This is because the R^2 and RMSE values indicated less overfitting in the optimized simple regression tree model. Also, the optimized simple regression tree model seems to perform better on the test set. The following are the results for each model:
+
 
  |Linear Regression Model    | *Training Set* | *Testing Set*|
 |----- | ----- | ----- |
 | R^2 | 0.672 | -5.500e+17 |
-| RMSE | 985.695 | 1.232e+12 |
+| RMSE | 985.695 | 1231851641982.857 |
+
 
 
 Optimized Simple Regression Tree Model    | *Training Set* | *Testing Set*
 ----- | ----- | -----
 R^2 | 0.616 | 0.585
 RMSE | 1066.448 | 1070.531
+
+- We can see from the above results that there is less overfitting in the optimized simple regression tree model. This is because the R^2 values of the training and testing sets are closer to each other. Also, the RMSE values of the training and testing sets of the optimized simple regression tree model are closer to each other.
+
+- Finally, the optimized simple regression tree model outperformed the baseline model. The linear regression model underperformed the baseline model.
+
+- As a result of all of the above, I will implement the optimized simple regression tree model.
 		
 	
 
