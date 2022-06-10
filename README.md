@@ -35,6 +35,8 @@ In this section, a histogram, boxplot and heat map were used for exploratory dat
 
 **Figure 3:** Heat map of the 'sales_predictions' dataframe
 
+**Part 3 Findings**
+
 The histogram in Figure 1 showed that the highest number of products fall in the maximum retail price range of roughly 110-125. Also, the histogram showed that no product had a maximum retail price less than approximately 30. Also, no product had a maximum retail price greater than about 268.
 
 From the boxplot in Figure 2, it was apparent that the median for the "Item_Weight" column was approximately around 12.5. The 25th percentile was approximately around 9.3, the 75th percentile was approximately around 16, the minimum was approximately around 4.5 and the maximum was approximately around 21.4. These numbers match up closely with what we see in the summary of statistics table.
