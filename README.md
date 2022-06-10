@@ -15,11 +15,11 @@ The data used in this project was retrieved from the following website: https://
 
 In this part, the needed packages were imported and the sales prediction data was loaded and verified
 
-**Part 2: Data Cleaning**
+### Part 2: Data Cleaning
 
 In this part, several steps were carried out to clean the data. Missing values and inconsistent categories of data were addressed. For "Item_Weight" column, the median weight was determined and that median was inserted in the cells with missing value. For the "Outlet_Size" column, the cells with missing values were filled with the most frequent size. Since there were no duplicates in the data, I did not have to address that.
  
-**Part 3: Exploratory Data Visualization**
+### Part 3: Exploratory Data Visualization
 
 In this section, a histogram, boxplot and heat map were used for exploratory data analysis and visualization. The Histogram of the Maximum Retail Price (list price) of products, Boxplot of the 'Item_Weight' column, and Heat map of the 'sales_predictions' dataframe are shown in Figure 1, Figure 2, and Figure 3 below. 
 
@@ -43,7 +43,7 @@ In this section, a histogram, boxplot and heat map were used for exploratory dat
 
 - It is obvious from the heat map in Figure 3 that when you compare each column against itself, you get a correlation value of 1. This is expected. Also, when 'Item_Outlet_Sales' is compared against 'Item_MRP', there is moderate positive correlation with a correlation value of 0.57. This means that the higher the maximum retail price (list price) of the product, the higher the sales of the product in the paricular store, and the lower the maximum retail price (list price) of the product, the lower the sales of the product in the paricular store. The correlation values in the other boxes in the heat map were either less than +0.1(indicating almost no correlation or very weak positive correlation) or they were very weak negative correlation values. Negative correlation indicates that when one column feature goes up, the other column feature being compared with it goes down and vice versa.
 
-**Part 4 - Explanatory Data Visualization**
+### Part 4 - Explanatory Data Visualization
 
 In this section, outliers in the data set were identified and addressed using boxplots. Also, using a scatter plot, the 'Item_Visibility' and 'Item_Outlet_Sales' columns were compared to see if there is any correlation between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of the product in the particular store. Finally, using bar charts, the mean of 'Item_Outlet_Sales' column was compared with the 'Item_Fat_Content' column to see if there is any correlation between the fat content of food products and the average sales of products in various stores. The Boxplot for 'Item_Visibility' column, scatter plot that compares the 'Item_Visibility' and 'Item_Outlet_Sales' columns, and bar chart that compares the mean of 'Item_Outlet_Sales' column with the 'Item_Fat_Content' column are shown in Figure 4, Figure 5, and Figure 6 below. 
 
@@ -67,7 +67,7 @@ In this section, outliers in the data set were identified and addressed using bo
 
 - From the bar chart in Figure 6, it was obvious that the average sales of products in various stores was higher for food products with regular fat content than food products with low fat content.
 
-**Part 5 - Preprocessing for Machine Learning**
+### Part 5 - Preprocessing for Machine Learning
 
 In this section, the following tasks were addressed:
 
@@ -79,7 +79,7 @@ c) A pre processing pipeline was created to prepare the dataset for Machine Lear
 
 After the above tasks were performed, there were no missing values in our data, all numeric data was successfully scaled, ordinal data was ordinal encoded, and nominal data was one-hot encoded.
 
-**Part 6 - Regression Models**
+### Part 6 - Regression Models
 
 In this section, the following tasks were carried out:
 
