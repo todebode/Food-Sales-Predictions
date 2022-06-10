@@ -23,17 +23,17 @@ In this part, several steps were carried out to clean the data. Missing values a
 
 In this section, a histogram, boxplot and heat map were used for exploratory data analysis and visualization. The Histogram of the Maximum Retail Price (list price) of products, Boxplot of the 'Item_Weight' column, and Heat map of the 'sales_predictions' dataframe are shown in Figure 1, Figure 2, and Figure 3 below. 
 
-![image](https://user-images.githubusercontent.com/97941938/173128049-666146ff-10fa-4ab4-a2e1-769cea97c7f5.png)
-
 **Figure 1:** Histogram of the Maximum Retail Price (list price) of products
 
-![image](https://user-images.githubusercontent.com/97941938/173128298-19fe8031-b127-42dd-8fe9-2fa0077ad20a.png)
+![image](https://user-images.githubusercontent.com/97941938/173128049-666146ff-10fa-4ab4-a2e1-769cea97c7f5.png)
 
 **Figure 2:** Boxplot of the 'Item_Weight' column
 
-![image](https://user-images.githubusercontent.com/97941938/173128393-76046c8a-b85d-4bbb-8729-3c3c6f7dde93.png)
+![image](https://user-images.githubusercontent.com/97941938/173128298-19fe8031-b127-42dd-8fe9-2fa0077ad20a.png)
 
 **Figure 3:** Heat map of the 'sales_predictions' dataframe
+
+![image](https://user-images.githubusercontent.com/97941938/173128393-76046c8a-b85d-4bbb-8729-3c3c6f7dde93.png)
 
 <ins>Findings</ins> 
 
@@ -47,17 +47,17 @@ In this section, a histogram, boxplot and heat map were used for exploratory dat
 
 In this section, outliers in the data set were identified and addressed using boxplots. Also, using a scatter plot, the 'Item_Visibility' and 'Item_Outlet_Sales' columns were compared to see if there is any correlation between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of the product in the particular store. Finally, using bar charts, the mean of 'Item_Outlet_Sales' column was compared with the 'Item_Fat_Content' column to see if there is any correlation between the fat content of food products and the average sales of products in various stores. The Boxplot for 'Item_Visibility' column, scatter plot that compares the 'Item_Visibility' and 'Item_Outlet_Sales' columns, and bar chart that compares the mean of 'Item_Outlet_Sales' column with the 'Item_Fat_Content' column are shown in Figure 4, Figure 5, and Figure 6 below. 
 
-![image](https://user-images.githubusercontent.com/97941938/173130215-09a4805a-728f-4af2-8262-b56bdd7bf198.png)
-
 **Figure 4:** Boxplot for 'Item_Visibility' column
 
-![image](https://user-images.githubusercontent.com/97941938/173130318-20693378-6d20-42b7-bd14-6aeb242cbebd.png)
+![image](https://user-images.githubusercontent.com/97941938/173130215-09a4805a-728f-4af2-8262-b56bdd7bf198.png)
 
 **Figure 5:** Correlation between Product Visibility and Sales of Product
 
-![image](https://user-images.githubusercontent.com/97941938/173130478-29418c9c-a4ea-487d-998c-14dc18ef67ec.png)
+![image](https://user-images.githubusercontent.com/97941938/173130318-20693378-6d20-42b7-bd14-6aeb242cbebd.png)
 
 **Figure 6:** Average Sales of Products in various stores by Fat Content
+
+![image](https://user-images.githubusercontent.com/97941938/173130478-29418c9c-a4ea-487d-998c-14dc18ef67ec.png)
 
 <ins>Findings</ins> 
 
