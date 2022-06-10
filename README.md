@@ -59,6 +59,8 @@ In this section, outliers in the data set were identified and addressed using bo
 
 **Figure 6:** Average Sales of Products in various stores by Fat Content
 
+<ins>Findings</ins> 
+
 From the boxplots (example in Figure 4 above) that were created, it was obvious that the following columns had outliers in them: 'Item_Visibility' and 'Item_Outlet_Sales.' The outliers in the 'sales_predictions' data were kept since there was no reason to believe the outliers were an error in the dataset.
 
 From the scatter plot in Figure 5, no correlation was seen between product visibility (the percentage of total display area of all products in a store allocated to the particular product) and sales of product in the particular store.
@@ -86,6 +88,8 @@ a. A linear regression model was built to predict sales. The performance of the 
 b. A regression tree model was built to predict sales. The performance of the model was evaluated based on R^2. The performance of the model was evaluated based on RMSE.
 
 c. The model to implement was determined. A justification was provided for the recommendation.
+
+<ins>Findings</ins> 
 
 The optimized (max_depth = 6) simple regression tree model seemed to have worked better than the linear regression model. This is because the R^2 and RMSE values indicated less overfitting in the optimized simple regression tree model. The R^2 values of the training and testing sets in the optimized simple regression tree model were closer to each other. Also, the RMSE values of the training and testing sets were closer to each other. The optimized simple regression tree model seemed to perform better on the test set. The following are the results for each model:
 
